@@ -1,4 +1,3 @@
-from re import A
 import time
 import discord
 from discord.ext import commands
@@ -18,7 +17,7 @@ bot = commands.Bot(command_prefix="./",
                    )
 
 TOKEN = os.environ["TOKEN"]
-SERVERS = [941803156633956362]
+SERVERS = []
 EMOJIS = [  # add more emojis if you want more choices
 
     "⚫",
