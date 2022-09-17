@@ -90,7 +90,7 @@ async def start_reaction(ctx: discord.ApplicationContext):
         embed=discord.Embed(title="Starting after 6 second(s)",
                             description="Get ready!", colour=discord.Color.green())
     )
-    i = 5
+    i = 5 # duration to wait
     while i != 0:
         await asyncio.sleep(1)
         await m.edit_original_message(embed=discord.Embed(title="Starting after {} seconds".format(i), description="Get ready!", colour=discord.Color.green()))
